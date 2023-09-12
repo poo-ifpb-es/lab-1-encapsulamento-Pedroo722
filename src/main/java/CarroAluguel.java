@@ -48,7 +48,7 @@ public class CarroAluguel {
                 throw new CarroNaoPagoException("O carro não foi pago.");
             }
         } else {
-            throw new CarroDisponivelException("O carro est\u00E1 dispon\u00EDvel.");
+            throw new CarroDisponivelException("O carro está disponível.");
         }
     }
 
